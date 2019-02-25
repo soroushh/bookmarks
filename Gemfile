@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
 ruby "2.6.0"
+gem "pg"
 gem "rake"
+
 
 group :test do
   gem "capybara"
