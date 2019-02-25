@@ -14,4 +14,4 @@ As a user
 so that I can see a list of bookmarks
 it should display the list of bookmarks.
 
-![] (Screenshot 2019-02-25 at 14.20.42.png?raw=true)
+![] (Screenshot%202019-02-25%20at%2014.20.42.png?raw=true)
