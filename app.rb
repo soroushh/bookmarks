@@ -1,8 +1,10 @@
 require "sinatra/base"
+require_relative "./lib/bookmark.rb"
 
 class BookmarkManager<Sinatra::Base
   get "/" do
-    "bookmarks"
+    @bookmark = Bookmark.new("http://www.makersacademy.com")
+    erb :index
   end
 
 
