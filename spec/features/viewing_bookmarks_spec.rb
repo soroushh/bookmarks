@@ -1,11 +1,7 @@
-feature "Shoewing bookmark term" do
-  scenario "The bookmarks term is shown when we start" do
+feature "Viewing bookmarks" do
+  scenario "Visiting the index page" do
     visit "/"
-    expect(page).to have_content "bookmarks"
+    expect(page).to have_content "Bookmark Manager"
   end
 
-  scenario "The makers web page is shown in bookmarks" do
-    visit"/"
-    expect(page).to have_content "http://www.makersacademy.com"
-  end
 end
