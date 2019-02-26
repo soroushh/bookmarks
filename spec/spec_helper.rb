@@ -20,6 +20,7 @@ require 'simplecov-console'
 require "capybara"
 require "rspec"
 ENV["RACK_ENV"] = "test"
+ENV["ENVIRONMENT"] = "test"
 require_relative "../app.rb"
 Capybara.app = BookmarkManager
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
