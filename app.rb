@@ -6,6 +6,14 @@ class BookmarkManager<Sinatra::Base
     erb :index
   end
 
+  get "/bookmarks" do
+    p ENV
+
+    @bookmarks = Bookmark.all
+
+    erb :index
+  end
+
 
 
 

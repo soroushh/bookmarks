@@ -21,6 +21,7 @@ require "capybara"
 require "rspec"
 ENV["RACK_ENV"] = "test"
 ENV["ENVIRONMENT"] = "test"
+require_relative './setup_test_database.rb'
 require_relative "../app.rb"
 Capybara.app = BookmarkManager
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
@@ -33,6 +34,9 @@ SimpleCov.start
 
 
 RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
