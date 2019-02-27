@@ -1,6 +1,16 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/soroushkhosravi/projects/bookmarks/spec/features/create_bookmark_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/soroushkhosravi/projects/bookmarks/spec/features/viewing_bookmarks_spec.rb": [
         null,
         1,
@@ -41,9 +51,16 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1551199501
+    "timestamp": 1551280943
   }
 }
