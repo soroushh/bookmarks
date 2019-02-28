@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/minci/Project/Soroush/bookmarks/spec/features/create_bookmark_spec.rb": [
+      "/Users/soroushkhosravi/projects/bookmarks/spec/features/create_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -12,7 +12,16 @@
         null,
         null
       ],
-      "/Users/minci/Project/Soroush/bookmarks/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/soroushkhosravi/projects/bookmarks/spec/features/deleting_a_bookmark_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/soroushkhosravi/projects/bookmarks/spec/features/viewing_bookmarks_spec.rb": [
         null,
         1,
         null,
@@ -31,7 +40,7 @@
         null,
         null
       ],
-      "/Users/minci/Project/Soroush/bookmarks/spec/units/bookmark_spec.rb": [
+      "/Users/soroushkhosravi/projects/bookmarks/spec/units/bookmark_spec.rb": [
         1,
         1,
         null,
@@ -69,7 +78,7 @@
         null,
         null
       ],
-      "/Users/minci/Project/Soroush/bookmarks/spec/database_helpers.rb": [
+      "/Users/soroushkhosravi/projects/bookmarks/spec/database_helpers.rb": [
         1,
         null,
         1,
@@ -79,6 +88,6 @@
         null
       ]
     },
-    "timestamp": 1551370244
+    "timestamp": 1551375438
   }
 }
